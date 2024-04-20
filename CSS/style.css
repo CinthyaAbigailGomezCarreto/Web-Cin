@@ -1,0 +1,139 @@
+body {
+    background-color: aliceblue;
+    background-size: cover;
+  }
+  
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #040404;
+	height: 100px;
+	padding: 0 30px;
+	box-shadow: 0px 0px 5px  #894c16;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.logo img {
+	height: 190px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color:  #ffc40c;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+}
+nav a:hover {
+	background-color:  #c79749 ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  
+  .column-left {
+	text-align: left;
+}
+
+.column-center {
+	text-align: center;
+}
+
+.column-right {
+	text-align: right;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.column-left,
+.column-center,
+.column-right {
+	width: 30%;
+	padding: 10px;
+
+}
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  .footer {
+    background-color: #040404;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .gallery figure {
+    margin: 0;
+  }
+
+  .gallery img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Para asegurar que todas las imágenes tengan el mismo ancho */
+  }
+
+  .photo-description {
+    text-align: center;
+  }
+  body {
+    font-family: 'Overpass', sans-serif;
+  }
